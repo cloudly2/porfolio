@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.main {
+    background-image: url('img/background.jpg');
+    height: 663px;
+    background-size: cover;
+    overflow: hidden;
+    padding-top: 100px;
+}
+
+.main-cards {
+    width: 90%;
+    display: flex;
+    color: white;
+    text-align: center;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.card {
+    box-shadow: 20px 20px 22px rgba(235, 228, 228, 0.2);
+    padding-bottom: 50px;
+    width: 30%;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.06);
+    backdrop-filter: blur(60px);  
+}
+
+.card img {
+    width: 90%;
+}
+
+.card h3 {
+    display: inline-block;
+}
+
+.card a {
+    text-decoration: none;
+    padding: 10px 20px;
+    background: white;
+    border-radius: 20px;
+}
+
+.size {
+    display: inline-block;
+    background: white;
+    padding: 4px;
+    color: black;
+    border-radius: 10px;
+    margin-left: 5px;
+}
+
+.color {
+    margin-left: 5px;
+    position: relative;
+    top: 1.5%;
+    display: inline-block;
+    padding: 15px;
+    border: 1px solid white;
+    border-radius: 50px;
+}
